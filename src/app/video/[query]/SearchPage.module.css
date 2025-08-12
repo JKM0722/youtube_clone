@@ -1,0 +1,16 @@
+.wrapper {
+  min-height: 100vh;
+  padding: 1rem;
+  background: var(--background);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.empty {
+  color: #666666;
+} 

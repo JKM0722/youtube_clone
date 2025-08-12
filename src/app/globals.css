@@ -1,4 +1,14 @@
-@import "tailwindcss";
+/* 기본 리셋 및 공통 유틸리티 */
+body, html {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 :root {
   --background: #ffffff;
